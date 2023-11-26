@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="main-heading">RTK Diner's</h1>
+        <h3 class="sub-heading">The best pizzas and burgers in town</h3>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="product-list"></ul>
+      </div>
+    </main>
+    <section class="order-summary hide">
+      <h3 class="dish-name">your order</h3>
+      <div class="order-summary-container">
+        <ul class="order-content"></ul>
+        <p class="total-price-wrapper">
+          Total Price :<span class="total-price">₹ 0</span>
+        </p>
+      </div>
+      <button data-btn="complete">Complete order</button>
+    </section>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
